@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 6b</title>
+</head>
+<body>
+
+    <h2>Contact US</h2>
+
+    <fieldset>
+        <legend>Your message:</legend>
+        <table>
+            <tr>
+                <td><label for="email">To</label></td>
+                <td><input type="text" name="txtTo" readonly="readonly" id="email" size="20" value="Example Cafe"></td>
+            </tr>
+            <tr>
+                <td><label for="from">Your email</label></td>
+                <td><input type="text" name="from" id="from" size="20" tabindex="1" maxlength="250"></td>
+            </tr>
+            <tr>
+                <td><label for="body">Message</label></td>
+                <td><textarea name="txtBody" id="body" cols="50" rows="10" tabindex="2"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>How you found us:</legend>
+        <table>
+            <tr>
+                <td><label for="how">How did you hear of us</label></td>
+                <td><input type="text" id="how" name="how" list="opro" required>
+                    <datalist id="opro">
+                        <option value="Google">
+                        <option value="Youtube">
+                        <option value="Facebook">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="news">Newsletter</label></td>
+                <td><input type="checkbox" name="" id=""> Ensure this box is checked if you would like to receve email updates</td>
+            </tr>
+        </table>
+    </fieldset>
+    <input type="button" value="Send message">
+</body>
+</html>
