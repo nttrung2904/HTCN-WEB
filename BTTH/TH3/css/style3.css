@@ -1,0 +1,199 @@
+.wrapper{
+    height: 900px;
+    width: 1450px;
+}
+.fmenu{
+    height: 80px;
+    width: 1450px;
+    background-color: #b04c14;
+}
+.txt1{
+    font-size: 35px;
+    margin-left: 20px;
+    padding-top: 12px;
+    color: yellowgreen;
+    text-shadow: 3px 3px 6px white;
+}
+.header1{
+    width: 1447px;
+    height: 30px;
+    border: 2px solid yellowgreen;
+}
+.home{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.home a{
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+}
+.about{
+    margin-top: -21px;
+    margin-left: 120px;
+}
+.about a{
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+}
+.pro{
+    margin-top: -22px;
+    margin-left: 240px;
+}
+.pro a{
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+}
+.ser{
+    margin-top: -22px;
+    margin-left: 360px;
+}
+.ser a{
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+}
+.od{
+    margin-top: -22px;
+    margin-left: 480px;
+}
+.od a{
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+}
+.img1 img{
+  width: 1450px;
+  height: 200px;
+}
+.txt2{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial;
+    color: yellowgreen;
+    margin-left: 20px;
+}
+.txt3{
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 17px;
+    color: yellowgreen;
+}
+.name input{
+    margin-top: 20px;
+    margin-left: 50px;
+    border: 1px solid white;
+    height: 20px;
+    width: 400px;
+}
+hr.hr1{
+    width: 400px;
+    height: 2px;
+    background-color: black;
+    margin-left: 50px;
+}
+.email input{
+    margin-top: 20px;
+    margin-left: 50px;
+    border: 1px solid white;
+    height: 20px;
+    width: 400px;
+}
+hr.hr2{
+    width: 400px;
+    height: 2px;
+    background-color: black;
+    margin-left: 50px;
+}
+.pass input{
+    margin-top: 20px;
+    margin-left: 50px;
+    border: 1px solid white;
+    height: 20px;
+    width: 400px;
+}
+hr.hr3{
+    width: 400px;
+    height: 2px;
+    background-color: black;
+    margin-left: 50px;
+}
+.pass2 input{
+    margin-top: 20px;
+    margin-left: 50px;
+    border: 1px solid white;
+    height: 20px;
+    width: 400px;
+}
+hr.hr4{
+    width: 400px;
+    height: 2px;
+    background-color: black;
+    margin-left: 50px;
+}
+.btn{
+    margin-top: 30px;
+    margin-left: 47px;
+}
+.btn button{
+    background-color: yellowgreen;
+    color: white;
+    border: 1px solid yellowgreen;
+    width: 100px;
+}
+.vertical-line {
+    border-left: 2px solid black;
+    height: 400px; 
+    margin-left: 900px;
+    margin-top: -400px;
+}
+.link{
+    height: 170px;
+    width: 200px;
+    background-color: #f7ecd6;
+    float: right;
+    margin-top: -400px;
+    margin-right: 50px;
+    border-radius: 4px;
+}
+.lk{
+    font-size: 20px;
+    font-family: Arial;
+    color: #b04c14;
+    margin-left: 20px;
+}
+.sl{
+    margin-top: 30px;
+}
+.in4{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: Arial;
+    color: #b04c14;
+}
+.img2 img{
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.txt4{
+    margin-left: 120px;
+    margin-top: -70px;
+}
+.txt5{
+    margin-top: -15px;
+    margin-left: 5px;
+}
+.end{
+    height: 50px;
+    width: 1450px;
+}
+.img3 img{
+    margin-top: 50px;
+    width: 1450px;
+    height: 60px;
+}
