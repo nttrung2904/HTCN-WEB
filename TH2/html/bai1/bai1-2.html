@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 1.2</title>
+</head>
+<style>
+    .wrapper {
+        height: 792px;
+        width: 1580px;
+        border: 1px solid brown;
+    }
+    
+    .logo {
+        height: 80px;
+        width: 1580px;
+        font-size: 35px;
+        color: red;
+        border: 1px solid brown;
+    }
+    
+    .ex {
+        margin-top: 17px;
+        text-shadow: 10px;
+    }
+    
+    .menu {
+        height: 50px;
+        width: 1580px;
+        background-color: #ec9898;
+    }
+    
+    .home {
+        height: 48px;
+        width: 280px;
+        border: 1px solid purple;
+    }
+    
+    .home img {
+        height: 25px;
+        margin-top: 5px;
+        margin-left: 240px;
+    }
+    
+    .stater1 {
+        height: 48px;
+        width: 250px;
+        border: 1px solid purple;
+        margin-left: 280px;
+        margin-top: -50px;
+    }
+    
+    .sta1 {
+        font-size: 18px;
+        margin-top: 12px;
+        margin-left: 75px;
+    }
+    
+    .main {
+        height: 48px;
+        width: 250px;
+        border: 1px solid purple;
+        margin-left: 530px;
+        margin-top: -49px;
+    }
+    
+    .cou {
+        font-size: 18px;
+        margin-top: 12px;
+        margin-left: 65px;
+    }
+    .dessert1 {
+        height: 48px;
+        width: 230px;
+        border: 1px solid purple;
+        margin-left: 780px;
+        margin-top: -49px;
+    }
+    
+    .dess1 {
+        font-size: 18px;
+        margin-top: 12px;
+        margin-left: 65px;
+    }
+
+    .go{
+        margin-left: 1080px;
+        margin-top: -35px;
+    }
+    .sumbit-go{
+        margin-left: 1260px;
+        margin-top: -21px;
+    }
+    .caffe{
+        height: 20px;
+        width: 200px;
+        border: 1px solid #ec9898;
+        margin-top: 25px;
+        border-radius: 10px;
+        background-color: #ec9898;
+    }
+    .cafe{
+        margin-left: 10px;
+        color: white;
+        font-size: 15px;
+    }
+    .capuchino{
+        height: 20px;
+        width: 200px;
+        border: 1px solid #ec9898;
+        margin-top: 5px;
+        border-radius: 10px;
+        background-color: #ec9898;
+    }
+    .capu{
+        margin-left: 10px;
+        color: white;
+        font-size: 15px;
+    }
+    .cesa-bias{
+        height: 20px;
+        width: 200px;
+        border: 1px solid #ec9898;
+        margin-top: 5px;
+        border-radius: 10px;
+        background-color: #ec9898;
+    }
+    .bias{
+        margin-left: 10px;
+        color: white;
+        font-size: 15px;
+    }
+    .fag-figo{
+        height: 20px;
+        width: 200px;
+        border: 1px solid #ec9898;
+        margin-top: 5px;
+        border-radius: 10px;
+        background-color: #ec9898;
+    }
+    .figo{
+        margin-left: 10px;
+        color: white;
+        font-size: 15px;
+    }
+    .pizza-text{
+        height: 20px;
+        width: 200px;
+        border: 1px solid #ec9898;
+        margin-top: 5px;
+        border-radius: 10px;
+        background-color: #ec9898;
+    }
+    .pizza{
+        margin-left: 10px;
+        color: white;
+        font-size: 15px;
+    }
+    .center-menu{
+        height: 32px;
+        width: 400px;
+        background-color: #ec9898;
+        margin-left: 600px;
+        margin-top: -130px;
+    }
+    .center{
+        font-size: 30px;
+        color: brown;
+        margin-left: 15px;
+    }
+    .sta{
+        margin-left: 230px;
+        font-size: 14px;
+        margin-top: -10px;
+    }
+    .back1{
+        margin-left: 220px;
+        font-size: 14px;
+    }
+    .center-dess{
+        height: 32px;
+        width: 400px;
+        background-color: #ec9898;
+        margin-left: 600px;
+    }
+    .center2{
+        font-size: 30px;
+        color: brown;
+        margin-left: 15px;
+    }
+    .dess{
+        margin-left: 230px;
+        font-size: 14px;
+    }
+    .back2{
+        margin-left: 220px;
+        font-size: 14px;
+    }
+    .center-info{
+        height: 32px;
+        width: 400px;
+        background-color: #ec9898;
+        margin-left: 600px;
+    }
+    .center3{
+        font-size: 30px;
+        color: brown;
+        margin-left: 15px;
+    }
+    .fname{
+        margin-left: 400px;
+        margin-top: 5px;
+    }
+    .fname input{
+        height: 25px;
+        width: 300px;
+    }
+    .lname{
+        margin-left: 730px;
+        margin-top: -30px;
+    }
+    .lname input{
+        height: 25px;
+        width: 300px;
+    }
+    .email{
+        margin-left: 400px;
+        margin-top: 5px;
+    }
+    .email input{
+        height: 25px;
+        width: 300px;
+    }
+    .phone{
+        margin-left: 730px;
+        margin-top: -30px;
+    }
+    .phone input{
+        height: 25px;
+        width: 300px;
+    }
+    .country{
+        margin-left: 400px;
+        margin-top: 5px;
+    }
+    .country select{
+        height: 35px;
+        width: 308px;
+    }
+    .vn{
+        margin-left: 730px;
+        margin-top: -30px;
+    }
+    .for{
+        margin-left: 850px;
+        margin-top: -19px;
+    }
+    .element{
+        margin-top: 20px;
+        margin-left: 400px;
+    }
+    .sub{
+        margin-left: 400px;
+        margin-top: 5px;
+    }
+    .sub input{
+        height: 30px;
+    }
+    .can{
+        margin-left: 470px;
+        margin-top: -30px;
+    }
+    .can input{
+        height: 30px;
+    }
+    .img1{
+        margin-top: -380px;
+    }
+    .img1 img{
+        width: 160px;
+        height: 90px;
+        border-radius: 100px;
+    }
+    .end{
+        margin-top: 350px;
+        height: 50px;
+        width: 1580px;
+        background-color: #ec9898;
+        border: 1px solid;
+        color: white;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .menu-left{
+        height: 510px;
+        width: 350px;
+        background-color: black;
+        margin-left: 1230px;
+        margin-top: -650px;
+    }
+    .event{
+        color: white;
+        font-size: 30px;
+    }
+    .meeting{
+        color: white;
+        margin-top: 5px;
+        margin-left: 25px;
+        font-size: 20px;
+    }
+    .img2 img{
+        height: 150px;
+        width: 300px;
+        margin-left: 25px;
+    }
+    .text1{
+        color: white;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .product{
+        color: white;
+        margin-top: 15px;
+        margin-left: 25px;
+        font-size: 20px;
+    }
+    .img3 img{
+        height: 150px;
+        width: 300px;
+        margin-left: 25px;
+    }
+    .text2{
+        color: white;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <div class="ex">
+                <i><b><center>EXAMPLE CAFE MENU</center></b></i>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="home"><a href="/html/bai1-1.html"><img src="..//img/icons8-home-50.png" alt=""></a></div>
+            <div class="stater1">
+                <div class="sta1"><a href="/html/bai1.html" style="text-decoration: none; color: white;"><b>STARTER</b></a></div>
+            </div>
+            <div class="main">
+                <div class="cou"><a href="" style="text-decoration: none; color: white;"><b>MAIN COURSES</b></a></div>
+            </div>
+            <div class="dessert1">
+                <div class="dess1"><a href="" style="text-decoration: none; color: white;"><b>DESSERTS</b></a></div>
+            </div>
+            <div class="text-go">
+                <div class="go"><input type="text"></div>
+                <div class="sumbit-go"><input type="submit" value="Go"></div>
+            </div>
+            <div class="caffe">
+                <div class="cafe"><b>Cafe Latis</b></div>
+            </div>
+            <div class="capuchino">
+                <div class="capu"><b>Capuchino</b></div>
+            </div>
+            <div class="cesa-bias">
+                <div class="bias"><b>Casear Bias</b></div>
+            </div>
+            <div class="fag-figo">
+                <div class="figo"><b>Facisuse figo</b></div>
+            </div>
+            <div class="pizza-text">
+                <div class="pizza"><b>Huge Pizza</b></div>
+            </div>
+            <div class="center-menu">
+                <div class="center"><b>S  t  a  r  t  e  r</b></div>
+            </div>
+            <div class="sta">
+                <ul>
+                    <li>Chesnut and Mushroom Goujons (<u style="color: red;">y</u>)</li>
+                    <li>Goat Cheese (<u style="color: red;">y</u>)</li>
+                    <li><b style="color: orange;">HONEY SOY CHICKEN KEBABS</b>(<u style="color: red;">V</u>)</li>
+                    <li>Seafood Salad(<u style="color: red;">y</u>)</li>
+                </ul>
+            </div>
+            <div class="backtop">
+                <div class="back1"><a href="" style="color: red;">Back to Top</a></div>
+            </div>
+            <div class="center-dess">
+                <div class="center2"><b>D  e  s  s  e  r  t  s</b></div>
+            </div>
+            <div class="dess">
+                <ul>
+                    <li>Lemon Sorbet (<u style="color: red;">y</u>)</li>
+                    <li>Chocolate Mud Pie(<u style="color: red;">y</u>)</li>
+                    <li>Pecan Pie(<u style="color: red;">y</u>)</li>
+                    <li>Selection of fine Cheeses from Around the World(<u style="color: red;">y</u>)</li>
+                </ul>
+            </div>
+            <div class="backtop">
+                <div class="back2"><a href="" style="color: red;">Back to Top</a></div>
+            </div>
+            <div class="center-info">
+                <div class="center3"><b>I  N  F  O  R  M  A  T  I  O  N</b></div>
+            </div>
+            <div class="text-box">
+                <div class="fname">
+                    <input type="text" placeholder="First Name">
+                </div>
+                <div class="lname">
+                    <input type="text" placeholder="Last Name">
+                </div>
+                <div class="email">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="phone">
+                    <input type="number" placeholder="Telephone">
+                </div>
+                <div class="country">
+                    <label for="fruitSelect"></label>
+                        <select id="fruitSelect" name="fruit">
+                            <option value="usa">USA</option>
+                            <option value="banana">USUK</option>
+                            <option value="orange">VN</option>
+                            <option value="grape">CN</option>
+                        </select>
+                </div>
+                <div class="another">
+                    <div class="vn">
+                        <input type="radio" name="vn" id="">Vietnamese
+                    </div>
+                    <div class="for">
+                        <input type="radio" name="fr" id="">Foreniger
+                    </div>
+                </div>
+                <div class="element">
+                    <label for="note"></label>
+                    <textarea id="note" name="note" rows="4" cols="83"></textarea>
+                </div>
+                <div class="button-main">
+                    <div class="sub">
+                        <input type="submit" value="Submit">
+                    </div>
+                    <div class="can">
+                        <input type="submit" value="Cancel">
+                    </div>
+                </div>
+                <div class="img1">
+                    <img src="/img/company.png" alt="">
+                </div>
+                <div class="end">
+                    <b style="margin-left: 500px;">ABC Company* - 12345678 - abccoffee@gmail.com</b>
+                </div>
+                <div class="menu-left">
+                    <div class="event">
+                        <b>Events</b>
+                    </div>
+                    <div class="meeting">
+                        <b>Regular Meetings</b>
+                    </div>
+                    <div class="img2">
+                        <img src="/img/meeting.png" alt="">
+                    </div>
+                    <div class="text1">
+                        <b>Host your regular team meetings or activities in the comfort of your own private room. Charge up on Kith's aromatic coffee and delectable dishes for that extra boost in your work!</b>
+                    </div>
+                    <div class="product">
+                        <b>Product Launches</b>
+                    </div>
+                    <div class="img3">
+                        <img src="/img/launch.png" alt="">
+                    </div>
+                    <div class="text2">
+                        <b>Launch your product with ease in a space that truly fits its image. Create an unforgettable experience for your guests with our spacious outlets! Whether you want to host an intimate celebration or launch an event for hundreds of guests, Kith's space is customisable to your needs</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

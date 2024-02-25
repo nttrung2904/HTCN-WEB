@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 6a</title>
+    <style>
+        *{
+            background-color: #99cdfd;
+        }
+    </style>
+</head>
+<body>
+    <h2><b><center>Registration Form</center></b></h2>
+    <p><center>Register your Electronics product here</center></p>
+    <form action="">
+        <label for="fname">First Name: </label>
+        <input type="text" id="fname" name="fname" required>
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname" name="lname" required>
+        <br>
+        <label for="add1">Address #1: </label>
+        <input type="text" id="add1" name="add1" required><br>
+        <label for="add2">Address #2: </label>
+        <input type="text" id="add2" name="add2" required>
+        <label for="city">City: </label>
+        <input type="text" id="city" name="city" required>
+        <label for="st">State: </label>
+        <input type="text" id="st" name="st" required>
+        <label for="zip">Zip: </label>
+        <input type="text" id="zip" name="zip" required>
+        <label for="ctry">Country: </label>
+        <input type="text" id="ctry" name="ctry" placeholder="United States" required>
+        <hr>
+        <label for="pro">Product: </label>
+        <input type="text" id="pro" name="pro" list="opro" required>
+        <datalist id="opro">
+            <option value="Scan Mater">
+            <option value="Laptop">
+            <option value="TV">
+        </datalist>
+        <br>
+        <label for="date">Date Purchased: </label>
+        <input type="datetime-local" name="date" id="date">
+        <br>
+        <label for="ser">Serial #: </label>
+        <input type="text">
+        <br>
+        <label for="use">Used for: </label>
+        <input type="radio" name="op1" id="op1">Home
+        <input type="radio" name="op2" id="op2">Educational Institution
+        <br>
+        <input type="radio" name="op3">Bussiness
+        <input type="radio" name="op4">Other
+        <br>
+        <input type="radio" name="op5">Goverment
+        <br>
+        <label for="sys">System (check all that apply): </label>
+        <input type="checkbox" name="wd" id="wd">Windows
+        <input type="checkbox" name="" id="">UNIX
+        <br>
+        <input type="checkbox" name="" id="">Macintoth
+        <input type="checkbox" name="" id="">Other
+        <hr>
+        <label for="cmt">Comments?:</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <center><input type="button" value="Click to register"> <input type="button" value="Click to cancel"></center>
+    </form>
+</body>
+</html>
