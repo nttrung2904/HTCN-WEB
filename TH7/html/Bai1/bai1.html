@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="/css/Bai1/style.css">
+</head>
+<body>
+    <div class="container mt-3 border">
+        <div class="row">
+            <div class="col text-dark">
+                <h2>Anime Gallery</h2>
+            </div>
+        </div>
+        <div class="row mb-3" id="gallery">
+            <div class="col-md-4">
+                <a href="/img/lion.jpg" class="lightbox">
+                    <img src="/img/lion.jpg" alt="lion" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="/img/cat.jpg" class="lightbox">
+                    <img src="/img/cat.jpg" alt="cat" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="/img/bird.jpg" class="lightbox">
+                    <img src="/img/bird.jpg" alt="bird" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="/img/Rhino.jpg" class="lightbox">
+                    <img src="/img/Rhino.jpg" alt="rhino" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="/img/panda.jpg" class="lightbox">
+                    <img src="/img/panda.jpg" alt="panda" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="/img/goat.webp" class="lightbox">
+                    <img src="/img/goat.webp" alt="goat" class="img-fluid">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.0/baguetteBox.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            baguetteBox.run('.lightbox');
+        });
+    </script>
+</body>
+</html>
